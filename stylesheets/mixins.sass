@@ -1,0 +1,20 @@
+=transform( $string )
+  :-webkit-transform $string
+  :-moz-transform $string
+  :-o-transform $string
+
+=round-border( $radius )
+  :border-radius $radius
+  :-moz-border-radius $radius
+
+=round-border-tops( $radius )
+  :border-top-left-radius $radius
+  :border-top-right-radius $radius
+  :-moz-border-radius-topleft $radius
+  :-moz-border-radius-topright $radius
+
+=round-border-bottoms( $radius )
+  :border-bottom-left-radius $radius
+  :border-bottom-right-radius $radius
+  :-moz-border-radius-bottomleft $radius
+  :-moz-border-radius-bottomright $radius
