@@ -1,0 +1,74 @@
+@import 'reset'
+@import 'colours'
+
+html, body
+  :-webkit-font-smoothing antialiased
+  :background $background
+  :-webkit-background-size cover
+  :-moz-background-size cover
+  :-o-background-size cover
+  :background-size cover
+  :color $text
+
+body
+  :width 80%
+  :margin 0 auto
+  :font-family Arial
+  :font-size 2em
+
+  header
+    :float left
+    :padding 1em
+    h1
+      :font-size 4em
+      :width 1em
+      :padding 0 0.1em 0 0.1em
+      :margin 0 auto
+      .n
+        :border-top $TV_YELLOW 0.1em solid
+        :border-top-left-radius 0.2em
+        :border-top-right-radius 0.2em
+      .n, .r, .g
+        :text-align center
+        :border-left $TV_YELLOW 0.1em solid
+        :border-right $TV_YELLOW 0.1em solid
+      .g
+        :background $background
+        :padding-bottom 0.1em
+        :position relative
+        :z-index 2
+    h2
+      :font-size 2em
+      :border $TV_YELLOW 0.2em solid
+      :border-radius 0.4em
+      :position relative
+      :top -0.2em
+      :z-index 1
+      :padding 0.1em
+
+  #nic, #ray
+    :padding-bottom 1em
+    h1
+      :font-size 3em
+    :-webkit-transform rotate(-10deg)
+    :-moz-transform rotate(-10deg)
+  #nic
+    :padding-top 3em
+  #ray
+    :text-indent 1em
+  #about
+    :padding-top 1em
+  #contact
+    :clear both
+    :padding 1em
+    :text-align center
+  footer
+    :text-align center
+
+
+.n
+  :color $N_RED
+.r
+  :color $R_ORANGE
+.g
+  :color $G_GREEN
