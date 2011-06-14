@@ -12,44 +12,20 @@ html, body
   :color $text
 
 body
-  :width 80%
+  :width 1100px
+  :overflow hidden
   :margin 0 auto
   :font-family Arial
   :font-size 2em
 
   header
     :float left
-    :padding 1em
-    h1
-      :font-size 4em
-      :width 1em
-      :padding 0 0.1em 0 0.1em
-      :margin 0 auto
-      .n
-        :border-top $TV_YELLOW 0.1em solid
-        +round-border-tops( 0.2em )
-      .n, .r, .g
-        :text-align center
-        :border-left $TV_YELLOW 0.1em solid
-        :border-right $TV_YELLOW 0.1em solid
-      .g
-        :background $background
-        :padding-bottom 0.1em
-        :position relative
-        :z-index 2
-    h2
-      :font-size 2em
-      :border $TV_YELLOW 0.2em solid
-      +round-border( 0.2em )
-      :position relative
-      :top -0.19em
-      :z-index 1
-      :padding 0.1em
-
+    :margin-top 2em
   section, header, footer
     :display block
   #nic, #ray
     :padding-bottom 1em
+    :margin-right -3em
     +transform( rotate(-10deg) )
     h1
       :font-size 3em
@@ -58,6 +34,8 @@ body
   #ray
     :text-indent 1em
   #about
+    :clear both
+    :text-align center
     :padding-top 1em
   #contact
     :clear both
