@@ -12,9 +12,9 @@ module Web
     get('/')      { find_page :home }
     get('/:page') { find_page params[:page] }
 
-    get '/stylesheets/default.css' do
-      set_last_modified "./stylesheets/default.sass"
-      sass :default, views: './stylesheets', charset: 'utf-8'
+    get '/stylesheets/:style.css' do
+      set_last_modified "./stylesheets/#{params[:style]}.sass"
+      sass params[:style].to_sym, views: './stylesheets', charset: 'utf-8'
     end
 
     not_found { not_found }
