@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'haml'
 require 'sass'
-require 'rdiscount'
 
 module Web
   class App < Sinatra::Base
