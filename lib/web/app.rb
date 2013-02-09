@@ -7,6 +7,7 @@ module Web
 
     mime_type :otf, 'application/octet-stream'
     set :public, "./public"
+    set :views,  "./views"
 
     get('/')      { find_page :home }
     get('/:page') { find_page params[:page] }
