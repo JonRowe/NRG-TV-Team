@@ -1,12 +1,9 @@
 source "https://rubygems.org"
 
-ruby '2.0.0'
-
-gem 'sinatra'
-gem 'haml'
-gem 'sass'
-gem 'unicorn'
+gem 'rake'
+gem 'rack'
 
 group :development do
-  gem 'heroku'
+  gem 'haml'
+  gem 'sass'
 end
