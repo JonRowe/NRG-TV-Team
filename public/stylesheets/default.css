@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s,
+samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+*:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  background: #252525;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #efefef; }
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Arial;
+  font-size: 2em; }
+  body header {
+    float: left;
+    margin-top: 2em; }
+  body section, body header, body footer {
+    display: block; }
+  body #nic, body #ray {
+    padding-bottom: 1em;
+    margin-right: -3em;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg); }
+    body #nic h1, body #ray h1 {
+      font-size: 2.7em; }
+  body #nic {
+    padding-top: 3em; }
+  body #ray {
+    text-indent: 1em; }
+  body #about {
+    clear: both;
+    text-align: center;
+    padding-top: 1em; }
+  body #contact {
+    clear: both;
+    padding: 1em;
+    text-align: center; }
+  body footer {
+    text-align: center; }
+
+.n {
+  color: #d82627; }
+
+.r {
+  color: #d2a223; }
+
+.g {
+  color: #3bc515; }
+
+a, a:visited, a:active {
+  color: #5594a7;
+  text-decoration: none; }
+  a:hover, a:visited:hover, a:active:hover {
+    text-decoration: underline; }
