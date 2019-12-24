@@ -1,14 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    haml (4.0.4)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     kgio (2.8.1)
     rack (1.5.2)
     raindrops (0.12.0)
     rake (0.9.6)
     sass (3.2.12)
-    tilt (1.4.1)
+    temple (0.8.2)
+    tilt (2.0.10)
     unicorn (4.7.0)
       kgio (~> 2.6)
       rack
